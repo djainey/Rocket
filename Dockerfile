@@ -27,10 +27,10 @@ ENV DEPLOY_METHOD=docker \
     NODE_ENV=production \
     MONGO_URL=mongodb://mongo:27017/rocketchat \
     HOME=/tmp \
-    PORT=3000 \
-    ROOT_URL=http://localhost:3000 \
+    PORT=4100 \
+    ROOT_URL=http://localhost:4100 \
     Accounts_AvatarStorePath=/app/uploads
 
-EXPOSE 3000
+EXPOSE 4100
 
 CMD ["node", "main.js"]
