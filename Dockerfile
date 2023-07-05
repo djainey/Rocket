@@ -33,4 +33,4 @@ ENV DEPLOY_METHOD=docker \
 
 EXPOSE 4100
 
-CMD ["node", "main.js"]
+CMD ["node", "index.js"]
