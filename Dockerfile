@@ -18,9 +18,9 @@ RUN set -x \
 
 USER rocketchat
 
-VOLUME /app/uploads
+VOLUME .
 
-WORKDIR /app/bundle
+WORKDIR .
 
 # needs a mongoinstance - defaults to container linking with alias 'mongo'
 ENV DEPLOY_METHOD=docker \
